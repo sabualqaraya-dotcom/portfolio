@@ -1,0 +1,236 @@
+body {
+background-color: #f4f7fb;
+color: #102040;
+font-family: Arial, sans-serif;
+text-align: center;
+margin: 0; }
+/* Header style */
+.header {
+background-color: #3157c9;
+color: white;
+padding: 25px; }
+.header h1 {
+font-size: 36px; }
+.header a {
+color: white;
+margin: 10px;
+text-decoration: none; }
+/* General section style */
+.section {
+background-color: white;
+padding: 30px;
+margin: 15px;
+border: 1px solid #d9e2f3;
+border-radius: 12px; }
+/* Hero section */
+.hero img {
+width: 150px;
+border-radius: 50%; }
+.hero h2 {
+font-size: 30px;
+color: #102040; }
+.hero h3 {
+color: #3157c9; }
+
+
+
+/* ==========================================
+1) قسم About Me (باستخدام ID Selector)
+   ========================================== */
+#about {
+background-color: #f2f9f6; /* لون خلفية أخضر فاتح مخصص للقسم */
+border-color: #c8e6c9;
+}
+
+#about h2 {
+color: #2e7d32; /* لون عنوان مخصص للقسم */
+font-size: 26px;
+}
+
+/* استخدام Element Selector لتنسيق الـ strong داخل القسم */
+#about strong {
+color: #1b5e20;
+font-weight: bold;
+}
+
+/* استخدام Class Selector لتنسيق الـ highlight */
+.highlight {
+color: #1b5e20;
+}
+
+/* استخدام Element Selector للوسم mark */
+mark {
+background-color: #c8e6c9;
+padding: 2px 6px;
+border-radius: 4px;
+}
+
+/* استخدام Element Selector للوسم blockquote */
+blockquote {
+background-color: #e8f5e9;
+border-left: 5px solid #4caf50;
+padding: 15px;
+margin: 20px auto;
+max-width: 500px;
+font-style: italic;
+color: #2e7d32;
+border-radius: 6px;
+}
+
+
+/* ==========================================
+2) قسم My Skills (باستخدام ID Selector)
+   ========================================== */
+#skills {
+background-color: #fffdf2; /* لون خلفية أصفر فاتح مخصص للقسم */
+border-color: #fbeeb5;
+}
+
+#skills h2 {
+color: #e67e22;
+font-size: 26px;
+}
+
+/* استخدام Class Selector لتنسيق عناصر المهارات */
+.skill-item {
+max-width: 500px;
+margin: 15px auto;
+text-align: left; /* محاذاة النص لليسار كما في التصميم */
+}
+
+.skill-item p {
+margin: 5px 0;
+font-weight: bold;
+}
+
+/* استخدام Class Selector لحساب مكان النسبة المئوية بدون استخدام الممنوعات */
+.skill-percent {
+position: relative;
+top: -22px;
+display: block;
+text-align: right;
+color: #e67e22;
+height: 0;
+}
+
+.progress-bar {
+background-color: #e0e0e0;
+border-radius: 10px;
+height: 12px;
+width: 100%;
+margin-top: 5px;
+}
+
+.progress {
+height: 100%;
+border-radius: 10px;
+}
+
+/* استخدام Class Selectors مخصصة لكل شريط مهارة للنسبة والمظهر */
+.html-bar { width: 90%; background-color: #f39c12; }
+.css-bar { width: 75%; background-color: #f39c12; }
+.github-bar { width: 70%; background-color: #f39c12; }
+
+
+
+#projects {
+background-color: #fbf7ff; /* لون خلفية بنفسجي فاتح مخصص للقسم */
+border-color: #e0d0f0;
+}
+
+#projects h2 {
+color: #8e44ad;
+font-size: 26px;
+}
+
+/* استخدام Class Selector لتنسيق كرت المشروع */
+.project-card {
+background-color: #ffffff;
+border: 1px solid #e0d0f0;
+border-radius: 8px;
+padding: 20px;
+max-width: 500px;
+margin: 15px auto;
+text-align: left;
+}
+
+.project-card h3 {
+margin-top: 0;
+color: #8e44ad;
+}
+
+/* استخدام Class Selector لتنسيق رابط المشروع (الوسم a) */
+.project-link {
+color: #8e44ad;
+text-decoration: none;
+font-weight: bold;
+font-size: 14px;
+display: inline-block;
+margin-top: 10px;
+}
+
+
+
+#contact {
+background-color: #fff5f5; /* لون خلفية وردي فاتح مخصص للقسم */
+border-color: #f5c6cb;
+}
+
+#contact h2 {
+color: #c0392b;
+font-size: 26px;
+}
+
+/* Class Selector لتنسيق الفورم بالكامل */
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* استخدام Element Selector لتنسيق عناصر الـ label */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #c0392b;
+}
+
+/* تحقيق الشرط: استخدام Element Selector لتنسيق الخصائص الإجبارية للمدخلات */
+input[type="text"],
+input[type="email"],
+textarea {
+width: 100%;
+padding: 10px;
+font-size: 14px;
+border: 1px solid #f5c6cb;
+border-radius: 4px;
+box-sizing: border-box; /* لضمان ضبط الـ padding والـ margin مع الـ width */
+}
+
+.submit-btn {
+background-color: #c0392b;
+color: white;
+border: none;
+padding: 12px 20px;
+font-size: 16px;
+border-radius: 4px;
+cursor: pointer;
+width: 100%;
+margin-top: 10px;
+}
+
+
+
+#footer {
+background-color: #3157c9;
+color: white;
+padding: 20px;
+font-size: 14px;
+margin-top: 30px;
+}
