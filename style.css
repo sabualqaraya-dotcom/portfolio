@@ -34,9 +34,7 @@ color: #3157c9; }
 
 
 
-/* ==========================================
-1) قسم About Me (باستخدام ID Selector)
-   ========================================== */
+
 #about {
 background-color: #f2f9f6; /* لون خلفية أخضر فاتح مخصص للقسم */
 border-color: #c8e6c9;
@@ -78,9 +76,7 @@ border-radius: 6px;
 }
 
 
-/* ==========================================
-2) قسم My Skills (باستخدام ID Selector)
-   ========================================== */
+
 #skills {
 background-color: #fffdf2; /* لون خلفية أصفر فاتح مخصص للقسم */
 border-color: #fbeeb5;
@@ -181,7 +177,6 @@ color: #c0392b;
 font-size: 26px;
 }
 
-/* Class Selector لتنسيق الفورم بالكامل */
 .contact-form {
     max-width: 500px;
     margin: 0 auto;
@@ -192,7 +187,6 @@ font-size: 26px;
     margin-bottom: 15px;
 }
 
-/* استخدام Element Selector لتنسيق عناصر الـ label */
 label {
     display: block;
     margin-bottom: 5px;
@@ -201,7 +195,6 @@ label {
     color: #c0392b;
 }
 
-/* تحقيق الشرط: استخدام Element Selector لتنسيق الخصائص الإجبارية للمدخلات */
 input[type="text"],
 input[type="email"],
 textarea {
@@ -235,7 +228,6 @@ font-size: 14px;
 margin-top: 30px;
 }
 
-/* --- تنسيق أزرار التواصل الاجتماعي المضافة حديثاً --- */
 
 /* حاوية الأيقونات لتوسيطها في المنتصف */
 .social-container {
@@ -243,7 +235,6 @@ margin-top: 30px;
     text-align: center;
 }
 
-/* التنسيق المشترك للمربعات البيضاء المحيطة بالأشكال */
 .social-box {
     display: inline-block;
     width: 42px;
