@@ -205,7 +205,7 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-width: 100%;
+    width: 100%;
 padding: 10px;
 font-size: 14px;
 border: 1px solid #f5c6cb;
@@ -234,3 +234,47 @@ padding: 20px;
 font-size: 14px;
 margin-top: 30px;
 }
+
+/* --- تنسيق أزرار التواصل الاجتماعي المضافة حديثاً --- */
+
+/* حاوية الأيقونات لتوسيطها في المنتصف */
+.social-container {
+    margin-top: 25px;
+    text-align: center;
+}
+
+/* التنسيق المشترك للمربعات البيضاء المحيطة بالأشكال */
+.social-box {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    background-color: #ffffff;
+    border: 1px solid #9bb2f3; /* حدود زرقاء فاتحة مطابقة للصورة */
+    border-radius: 8px; /* حواف دائرية خفيفة */
+    margin: 0 8px;
+    vertical-align: middle;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 22px; /* حجم الأيقونة بالداخل */
+}
+
+/* استدعاء صور الأيقونات من روابط مباشرة لتلوينها باللون الأزرق الموحد */
+.github-icon {
+    background-image: url('../icons8-github-logo-94.png');
+}
+
+.linkedin-icon {
+    background-image: url('../icons8-linkedin-48.png');
+}
+
+.email-icon {
+    background-image: url('./icons8-mail-48.png');
+}
+
+/* تأثير بسيط وجميل عند تمرير الفأرة فوق الأيقونة */
+.social-box:hover {
+    background-color: #f0f4ff;
+    border-color: #3157c9;
+}
+
