@@ -32,14 +32,10 @@ color: #102040; }
 .hero h3 {
 color: #3157c9; }
 
-
-
-
 #about {
 background-color: #f2f9f6; /* لون خلفية أخضر فاتح مخصص للقسم */
 border-color: #c8e6c9;
 }
-
 #about h2 {
 color: #2e7d32; /* لون عنوان مخصص للقسم */
 font-size: 26px;
@@ -122,7 +118,6 @@ height: 100%;
 border-radius: 10px;
 }
 
-/* استخدام Class Selectors مخصصة لكل شريط مهارة للنسبة والمظهر */
 .html-bar { width: 90%; background-color: #f39c12; }
 .css-bar { width: 75%; background-color: #f39c12; }
 .github-bar { width: 70%; background-color: #f39c12; }
